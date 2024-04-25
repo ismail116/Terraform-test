@@ -1,0 +1,27 @@
+
+
+ssh ubuntu@54.161.69.92 python3 --version
+
+
+sudo apt-get upgrade  python3-apt
+
+
+=============================================================
+#install python on ec2
+sudo apt update
+sudo apt install python
+
+alias python='python3'
+source ~/.bashrc
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.9
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
+ 
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
+
+
+
+
